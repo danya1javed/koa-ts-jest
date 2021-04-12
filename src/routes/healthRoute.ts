@@ -5,7 +5,7 @@ router.get("/health", async ctx => {
   try {
     ctx.body = {
       success: true,
-      work: 'so',
+      works: 'great',
       timeStamp: new Date(),
       upTime: process.uptime()
     }
